@@ -17,13 +17,13 @@
 你可以在程序中创建聊天室
 
 程序会生成2048位RSA密钥，公钥会上传至服务器保存用于加密信息，私钥留在本地用于解密信息
-<img src="https://github.com/Mangofang/HiddenChannel/blob/main/Image/CreateRoom.jpg" width="65%">
+<img src="https://github.com/Mangofang/HiddenChannel/blob/main/Image/CreateRoom.jpg" width="100%">
 
 加入房间时会从服务端获取公钥，当需要发送信息时使用公钥对信息进行加密
 
 对于接收到的讯息，使用私钥进行解密
 
-<img src="https://github.com/Mangofang/HiddenChannel/blob/main/Image/SendMessage.jpg" width="65%">
+<img src="https://github.com/Mangofang/HiddenChannel/blob/main/Image/SendMessage.jpg" width="100%">
 
 ## 服务端部署
 **注意：代码水平有限，建议自行进行再优化**
